@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import ReactDOM from "react-dom";
-import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
+import { HashRouter as Router, Route, Switch, Redirect } from "react-router-dom";
 
 // Pages
 import Home from "./pages/Home.jsx";
@@ -37,7 +37,7 @@ class App extends Component {
         return (
             <ThemeProvider theme={theme}>
                 <GlobalStyle />
-                <BrowserRouter>
+                <Router>
                     <AnimatePresence>
                         <Switch>
                             <Route path="/home">
@@ -67,7 +67,7 @@ class App extends Component {
                             <Redirect from="/" to="/home" />
                         </Switch>
                     </AnimatePresence>
-                </BrowserRouter>
+                </Router>
             </ThemeProvider>
         )
     }
