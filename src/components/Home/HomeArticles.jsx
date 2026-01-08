@@ -6,6 +6,7 @@ import { BodyContainer, Container } from "../StyledComponents/StyledComponents";
 const HomeProjects = () => {
     return(
         <BodyContainer>
+            {/*
             <Container top={6}>
                 <Container leftAlign bottom={4}>
                     <h2>Featured Articles</h2>
@@ -22,6 +23,7 @@ const HomeProjects = () => {
                     )})
                 }
             </Container>
+            */}
         </BodyContainer>
     )
 }

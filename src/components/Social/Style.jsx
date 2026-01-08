@@ -77,6 +77,7 @@ export const SocialButton = styled.button`
 
     ${props => props.social === 'codepen' &&
         css`
+            /* CodePen button removed: keeping styles commented for easy restore if needed */
             background: #FFF;
             color: black;
             

@@ -7,7 +7,7 @@ const AboutHero = () => {
         <Container >
             <Container flex bottom={6}>
                 <Container width={50} right={3} bottom={3}>
-                    <h1>About</h1>
+                    <h1>Notebook</h1>
                 </Container>
                 <Container width={50}>
                     <p>{Data.about.description}</p>
