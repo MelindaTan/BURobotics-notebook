@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/BURobotics-notebook/precache-manifest.46b431250784a296b658d55942a2323b.js"
+  "/BURobotics-notebook/precache-manifest.bae81e6b8e933d0444caa5b5515d44fc.js"
 );
 
 self.addEventListener('message', (event) => {
