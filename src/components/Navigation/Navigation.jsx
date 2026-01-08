@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Logo from '../Logo/Logo';
 import {
 	NavContainer,
@@ -22,8 +23,8 @@ class Navigation extends React.Component {
 							<Logo color={this.props.logoColor} size="36px" />
 							<SubNavMenu>
 								<SubNavMenuList>
-									<SubNavMenuListItem active={page === 'about' ? true : false}><a href="/about">Notebook</a></SubNavMenuListItem>
-									<SubNavMenuListItem active={page === 'contact' ? true : false}><a href="/contact">Contact</a></SubNavMenuListItem>
+									<SubNavMenuListItem active={page === 'about' ? true : false}><Link to="/about">Notebook</Link></SubNavMenuListItem>
+									<SubNavMenuListItem active={page === 'contact' ? true : false}><Link to="/contact">Contact</Link></SubNavMenuListItem>
 								</SubNavMenuList>
 							</SubNavMenu>
 						</Nav>

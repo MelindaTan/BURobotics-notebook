@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import {
     DesktopLogo,
     MobileLogo,
@@ -10,14 +11,16 @@ const split = Data.home.name.split(" ");
 const initials = split[0].charAt(0) + split[1].charAt(0);
 
 const Logo = (props) => (
-    <NavLogo href="/home">
-        <DesktopLogo>
-            {Data.home.name}
-        </DesktopLogo>
-        <MobileLogo>
-            {initials}
-        </MobileLogo>
-    </NavLogo> 
+    <Link to="/home">
+        <NavLogo>
+            <DesktopLogo>
+                {Data.home.name}
+            </DesktopLogo>
+            <MobileLogo>
+                {initials}
+            </MobileLogo>
+        </NavLogo>
+    </Link> 
 );
 
 export default Logo;
