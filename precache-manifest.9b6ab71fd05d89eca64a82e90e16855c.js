@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f856d74f8de381913a6b4199e830644e",
+    "revision": "78174d9a183df63ae5231e58276380a8",
     "url": "/BURobotics-notebook/index.html"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/BURobotics-notebook/static/js/2.469dbf37.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6e37aa12f92f5b9bf1b3",
-    "url": "/BURobotics-notebook/static/js/main.87b84edd.chunk.js"
+    "revision": "0e1fea682fd5d52bf4b2",
+    "url": "/BURobotics-notebook/static/js/main.67ab3382.chunk.js"
   },
   {
     "revision": "7f6b494203621e66424c",

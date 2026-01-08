@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/BURobotics-notebook/static/js/main.87b84edd.chunk.js",
-    "main.js.map": "/BURobotics-notebook/static/js/main.87b84edd.chunk.js.map",
+    "main.js": "/BURobotics-notebook/static/js/main.67ab3382.chunk.js",
+    "main.js.map": "/BURobotics-notebook/static/js/main.67ab3382.chunk.js.map",
     "runtime-main.js": "/BURobotics-notebook/static/js/runtime-main.66a55cd7.js",
     "runtime-main.js.map": "/BURobotics-notebook/static/js/runtime-main.66a55cd7.js.map",
     "static/js/2.469dbf37.chunk.js": "/BURobotics-notebook/static/js/2.469dbf37.chunk.js",
     "static/js/2.469dbf37.chunk.js.map": "/BURobotics-notebook/static/js/2.469dbf37.chunk.js.map",
     "index.html": "/BURobotics-notebook/index.html",
-    "precache-manifest.ef686746daf430593842667f03a08640.js": "/BURobotics-notebook/precache-manifest.ef686746daf430593842667f03a08640.js",
+    "precache-manifest.9b6ab71fd05d89eca64a82e90e16855c.js": "/BURobotics-notebook/precache-manifest.9b6ab71fd05d89eca64a82e90e16855c.js",
     "service-worker.js": "/BURobotics-notebook/service-worker.js",
     "static/js/2.469dbf37.chunk.js.LICENSE.txt": "/BURobotics-notebook/static/js/2.469dbf37.chunk.js.LICENSE.txt",
     "static/media/post_1.png": "/BURobotics-notebook/static/media/post_1.fae0e57f.png",
@@ -16,6 +16,6 @@
   "entrypoints": [
     "static/js/runtime-main.66a55cd7.js",
     "static/js/2.469dbf37.chunk.js",
-    "static/js/main.87b84edd.chunk.js"
+    "static/js/main.67ab3382.chunk.js"
   ]
 }
