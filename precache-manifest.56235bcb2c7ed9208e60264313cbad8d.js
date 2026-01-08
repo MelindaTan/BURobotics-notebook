@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "78174d9a183df63ae5231e58276380a8",
+    "revision": "abd0e38e8a250d60b2c5cbbfdbc422ce",
     "url": "/BURobotics-notebook/index.html"
   },
   {
