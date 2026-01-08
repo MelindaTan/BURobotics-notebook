@@ -24,13 +24,11 @@ const HomeHero = () => {
                     <p>{Data.home.description}</p>
                 </Container>
 
-                <a href="/about">
-                    <Button
-                        route="/about"
-                        text="Notebook"
-                        right
-                    />
-                </a>
+                <Button
+                    route="/about"
+                    text="Notebook"
+                    right
+                />
             </BodyContainer>
         </HeroContainer>
     )
